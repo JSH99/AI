@@ -152,7 +152,7 @@ def aStarSearch(problem):
     return FAIL
     """       
 
-'''
+
     for m, m_action, m_g in M:
 	if(m in CLOSED)
 	   continue
@@ -161,7 +161,7 @@ def aStarSearch(problem):
 	f = g + h 
 	actions = n_actions + [m_action]
 	OPEN.push( (m, actions, g), f)
-'''
+
     util.raiseNotDefined()
 
 
